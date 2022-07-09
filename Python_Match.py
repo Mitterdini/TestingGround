@@ -1,6 +1,6 @@
 #!/user/bin/python3.10
 
-user_input = input("gimme dat number (1-3): \n> ")
+user_input = int(input("gimme dat number (1-3): \n> "))
 match user_input:
     case 1:
         print("loser")
